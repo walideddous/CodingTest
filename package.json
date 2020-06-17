@@ -1,0 +1,11 @@
+{
+  "name": "codingtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sendEmail.js",
+  "scripts": {
+    "start": "node sendEmail.js"
+  },
+  "author": "Walid Eddous",
+  "license": "MIT"
+}
