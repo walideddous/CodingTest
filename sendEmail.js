@@ -14,9 +14,9 @@ if the counter is shorter than the length of the emailsList
  with the predefined function clearIntervale
 => 500 is 500 milliseconds is the callback function execution time in setIntervale. */
 
-const sendEmail = (listEmail) => {
+const sendEmail = async (listEmail) => {
   let counter = 0;
-  const send = setInterval(() => {
+  const send = await setInterval(() => {
     counter < listEmail.length
       ? console.log(`the email was sent to ${listEmail[counter].email}`)
       : clearInterval(send);
